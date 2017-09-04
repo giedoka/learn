@@ -718,6 +718,10 @@
 
         assignLocalStorageObj: function () {
             console.log('start assignLocalStorageObj');
+            console.log('test');
+            setTimeout(function() {
+               console.log('elo');
+            }, 1000);
             var i, j,
                 itemKey,
                 storageLength = localStorage.length,
